@@ -1,0 +1,11 @@
+.logo {
+    width: 100%;
+}
+.logo-align-top .logo {align-items: flex-start;}
+.logo-align-bottom .logo {align-items: flex-end;}
+.logo-align-left .logo {justify-content: flex-start;}
+.logo-align-left-top .logo {justify-content: flex-start; align-items: flex-start;}
+.logo-align-left-bottom .logo {justify-content: flex-start; align-items: flex-end;}
+.logo-align-right .logo {justify-content: flex-end;}
+.logo-align-right-top .logo {justify-content: flex-end; align-items: flex-start;}
+.logo-align-right-bottom .logo {justify-content: flex-end; align-items: flex-end;}
